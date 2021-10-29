@@ -1,0 +1,35 @@
+{
+    "refresh_rate": 900,
+    "endpoint_groups": [
+      {
+        "group_name": "Social",
+        "endpoints": [
+          {
+            "name": "Reddit",
+            "healthcheck": "https://www.reddit.com/",
+            "redirect": "https://www.reddit.com/"
+          },
+          {
+            "name": "Facebook",
+            "healthcheck": "https://www.facebook.com",
+            "redirect": "https://www.facebook.com"
+          }
+        ]
+      },
+      {
+        "group_name": "Commerce",
+        "endpoints": [
+          {
+            "name": "Apple",
+            "healthcheck": "https://www.apple.com",
+            "redirect": "https://www.apple.com"
+          },
+          {
+            "name": "Tesla",
+            "healthcheck": "https://www.tesla.com",
+            "redirect": "https://www.tesla.com"
+          }
+        ]
+      }
+    ]
+  }
